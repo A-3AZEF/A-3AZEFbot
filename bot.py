@@ -8,7 +8,7 @@ from keep_alive import keep_alive
 # بياناتك
 api_id = 26845245
 api_hash = '0d17e3caac8b751aa91089cebf3e2439'
-SESSION = "1BJWap1sBu0CtTE5MqyHxfnY3wt68rwJY92HLGjRMxEEVbACkyKhEW320kX2HFwQnSI4c5xMCLF5rOEa0X1RU6Fj4gONZIVUyvZiokBj7kB8NgEY2r-NxsnmKqE2otyl0z381VgbinoO-53u-XcNMGYE8p4Yx0BNrUaQon2G865a_5qoKVqTcdBnnBxpLyWk4Oy47jATt_hUG2RwU0q1dPNHRJnDiCPBPKpnHJ0n559dVZjRoLROOhDttviJzyv55WoT6tcVahUZJksLFgLIbTAP1QvJM05OS1O_J_Q7uBjxgPDh0tMhtDf_GQz9_2r2f3sLqnRi_IOjjksagQfGx6LxwhxXO_sE="
+SESSION = "1BJWap1sBu5cSA0qzs_HsnhRvQs3_jBOlsOzT-oe-E0xNl2G5YLACUBANGOYaC2n2av7alHrl_5BcC8vrEOZtW_VnZaPtWf5oodbgREhCOS9QdrHSoc1NfO_TOBGdYagMdrLoZd2KaETSe2OiR2Re8cZiadXMKfb-EKrUnrwgf4FHwJyRwN0CrdQ4RbyKmaJtonG23h7WRktU932K_Ro8FQVPXvJdzk5ctw0ozfv1dAV23nGB6kq2UB7twHyvMYtqWFUIO7l3ECvSwJylTmzA944UbEE3I6KipozpQLGNsrdffAsAZCpHDfbpRqgVwAkBn_pVygZJaNcaCvgCz5Tt8kbtdxw72O8="
 OWNER_ID = 6211998691  # ID الخاص بك
 
 client = TelegramClient('mysession', api_id, api_hash)
@@ -228,4 +228,5 @@ async def auto_broadcast_to_groups(event):
 keep_alive()
 client.start()
 client.loop.create_task(update_profile_name())
+
 client.run_until_disconnected()
