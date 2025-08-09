@@ -1,9 +1,3 @@
-
-pella logo
-pella
-Join our Discord
-voip2.yt4
-bot.py
 from telethon import TelegramClient, events, functions
 from telethon.tl.functions.users import GetFullUserRequest
 from telethon.tl.types import ChatBannedRights
@@ -605,3 +599,4 @@ client.run_until_disconnected()
  
 Settings
 Logout
+
